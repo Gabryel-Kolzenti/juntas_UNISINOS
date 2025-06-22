@@ -1,0 +1,58 @@
+:root {
+    --cor0: #7A66C5;
+    --cor1: #9F90D6;
+    --cor2: #10E5D5;
+    --cor4: #EEF3F4;
+
+    --fonte0: 'Poppins', sans-serif;
+    --fonte1: 'Poppins', sans-serif;
+    --fonte2: 'Poppins', sans-serif;
+
+    --subTitulo0: 'Poppins', sans-serif;
+    --subTitulo1: 'Poppins', sans-serif;
+    --subTitulo2: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.25% 5.5%;
+    gap: 5vh 0vw;
+}
+
+main h3{
+    color: var(--cor0);
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0% 3vw;
+}
+
+main .container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+main .container div img{
+    margin: 3vh 0vw;
+    width: 5vw;
+    height: 10vh;
+}
+
+main .container div p{
+    font-size: 0.8vw;
+}
+
+main .btn{
+    background-color: var(--cor0) !important;
+    padding: 1vh 3.5vw !important;
+    width: 20vw !important;
+}

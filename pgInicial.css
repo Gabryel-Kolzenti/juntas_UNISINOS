@@ -1,0 +1,125 @@
+:root {
+    --cor0: #7A66C5;
+    --cor1: #9F90D6;
+    --cor2: #10E5D5;
+    --cor4: #EEF3F4;
+
+    --fonte0: 'Poppins', sans-serif;
+    --fonte1: 'Poppins', sans-serif;
+    --fonte2: 'Poppins', sans-serif;
+
+    --subTitulo0: 'Poppins', sans-serif;
+    --subTitulo1: 'Poppins', sans-serif;
+    --subTitulo2: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1{
+    color: var(--cor0);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 3% 0%;
+}
+
+.containerAnimais{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 0% 10%;
+}
+
+.containerAnimais div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerAnimais div img{
+    width: 90%;
+    height: 40vh;
+}
+
+.containerAnimais div a{
+    width: 50% !important;
+    margin: 16% 0% 6% 0%;
+    padding: 2.5% 1.5% !important;
+}
+
+/*--------------------------------------Informações--------------------------------------------*/
+.informacoes{
+    background-image: url('imgs/pgInicial/Vector\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15% 20% 2.25% 20%;
+    color: white;
+    align-items: space-between;
+    
+}
+
+.informacoes > p:nth-of-type(1){
+    font-size: 2.5rem;
+    font-weight: 700;
+    align-self: baseline;
+    width: 40vw;
+    line-height: 5.2vh;
+    margin-bottom: 3%;
+}
+
+.informacoes div{
+    display: flex;
+    gap: 2%;
+    margin: 0.8% 0%;
+    justify-content: center;
+    width: 60vw;
+}
+
+.informacoes div p:nth-child(1){
+    font-size: 3.5rem;
+    background-color: white;
+    font-weight: 900;
+    text-align: center;
+    align-self: center;
+    width: 10%;
+    margin: 0%;
+    color: var(--cor2);
+    border-radius: 50%;
+}
+
+.informacoes div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95vw;
+    margin-top: 8vh;
+    padding: 3vh 8vw;
+    width: 46vw;
+    border-radius: 15px;
+    background-color: var(--cor1);
+}
+
+.informacoes form > p:nth-of-type(1){
+    font-size: 1.1vw;
+    font-weight: 700;
+    margin-bottom: 0vh;
+}
+
+.informacoes form input{
+    width: 120%;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 8px;
+    background-color: #ccc4eb; 
+}
+
+/*--------------------------------------Informações--------------------------------------------*/

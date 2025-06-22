@@ -1,0 +1,110 @@
+:root {
+    --cor0: #7A66C5;
+    --cor1: #9F90D6;
+    --cor2: #10E5D5;
+    --cor4: #EEF3F4;
+
+    --fonte0: 'Poppins', sans-serif;
+    --fonte1: 'Poppins', sans-serif;
+    --fonte2: 'Poppins', sans-serif;
+
+    --subTitulo0: 'Poppins', sans-serif;
+    --subTitulo1: 'Poppins', sans-serif;
+    --subTitulo2: 'Poppins', sans-serif;
+}
+
+header .favoritos li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor0);
+    width: 10vw;
+    padding: 0.3vh 0.3vw;
+    font-weight: 700;
+    gap: 0.3vw;
+    height: 6vh;
+    text-align: center;
+}
+
+header .favoritos li a p{
+    display: flex;
+    align-self: center;
+    width: 4vw;
+}
+
+header .favoritos li a img{
+    margin: 0%;
+    width: 5vw;
+    height: 5vh;
+}
+header .favoritos li a img:hover{
+    transform: scale(1);
+    filter: brightness(1);
+}
+
+header .favoritos li a:hover{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    transition: 0.15s;
+}
+
+
+main h1{
+    text-align: center;
+    font-weight: 700;
+    color: var(--cor0);
+}
+
+section{
+    display: grid;
+    padding: 2.25% 5.5%;
+    margin-bottom: 4vh;
+    gap: 5vh 5vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+section .card{
+    border: 0px;
+}
+
+section .card .botaoDesfavoritado{
+    position: absolute;
+    right: 0;
+    margin: 1vh 1vw;
+    width: 2vw;
+    height: 4vh;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+section .card .botaoDesfavoritado:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+section .card .botaoDesfavoritado:active{
+    transform: scale(1.3);
+}
+
+section .card img{
+    border-radius: 10px;
+    height: 35vh;
+}
+
+section .card .btn-primary{
+    width: 96% !important;
+    height: 4.8vh;
+    border: 0px;
+    margin-top: 1vh;
+}
+
+.carousel-inner img {
+    width: 60vw;
+    height: 40vh;
+}
+
+.modal-body p {
+    margin-top: 7%;
+}
+
+
